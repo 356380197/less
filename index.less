@@ -1,0 +1,20 @@
+@charset"utf-8";
+//@import(less) “b.css”;
+@import"b"
+body{
+	.bac(yellow);
+	.reset;
+}
+.div1{
+	width:@wid;
+	height:@wid;
+	.div2{
+	width:@wid;
+	height:@wid;
+	background:red;
+	}
+}
+.bac(@bac:red){
+	background:@bac;
+}
+@wid:100px;

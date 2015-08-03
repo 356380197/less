@@ -1,0 +1,13 @@
+@charset "utf-8";
+body {
+  background: #ffff00;
+}
+.div1 {
+  width: 100px;
+  height: 100px;
+}
+.div1 .div2 {
+  width: 100px;
+  height: 100px;
+  background: red;
+}
