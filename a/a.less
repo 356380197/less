@@ -1,0 +1,22 @@
+@import url(b.less); 
+@wid:100px;
+.res{
+	padding:0px;
+	margin:0px;	
+}
+.col(@a){
+	color:@a
+}
+body{
+background:red;
+.res;
+}
+.div1{
+	width:@wid;
+	height:@wid;
+	background:blue;
+	.col(yellow);
+	.res;
+	.lf(right)
+ }
+ @import url(c.css); 

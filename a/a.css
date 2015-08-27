@@ -1,0 +1,19 @@
+@import url(c.css);
+.res {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background: red;
+  padding: 0px;
+  margin: 0px;
+}
+.div1 {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  color: #ffff00;
+  padding: 0px;
+  margin: 0px;
+  float: right;
+}
